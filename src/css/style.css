@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    width: 100%;
+    top: 0;
+    height: 11vh;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #F1F1F0;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.logo img{
+    margin-top: 5%;
+}
+
+.navega{
+    display: flex;
+}
+
+.link{
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Lucida Sans Regular', Verdana, sans-serif;
+    color: #111111;
+    font-weight: 500;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30rem;
+}
