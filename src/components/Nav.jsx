@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import Logo from "../assets/LogoPng.svg";
-import "../css/style.css";
+import Hamburguer from '../assets/hamburguer.svg'
+import Pessoa from '../assets/pessoinha.svg'
+import "../css/nav.css";
 
 function Nav() {
   return (
@@ -24,6 +26,13 @@ function Nav() {
               Paginas
             </Link>
             </nav>
+          </div>
+
+          <div className="icons">
+            <ul>
+            <li><a href=""><img src={Pessoa} alt="" /></a></li>
+            <li><a href=""><img src={Hamburguer} alt="" /></a></li>
+            </ul>
           </div>
        
         </nav>
