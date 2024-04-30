@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.rodape{
+    background-color: #FFFF;
+    border-top: 1px solid black;
+    width: 100%;
+    font-family: 'Lucida Sans Regular', Verdana, sans-serif;
+    padding-top: 6%;
+}
+
+.rodape__textos{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+
+.rodape__textos h1{
+    font-weight: 200;
+    font-family: "Marcellus", serif;
+}
+
+.rodape__textos p{
+    font-family: "Jost", sans-serif;
+    margin-top: 3%;
+}
+
+.rodape__textos__somos{
+    width: 25%;
+    padding-left: 2%;
+}
+
+.x{
+    width: 50%;
+}
+
+.rodape__textos__icones{
+    margin-top: 5%;
+}
+
+.rodape__textos__icones ul{
+    margin-top: 2%;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.rodape__copyright{
+    border-top: 0.2px solid #111111;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    margin-top: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}

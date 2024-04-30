@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.navega{
+.cabecalho{
     width: 100%;
     top: 0;
     height: 11vh;
@@ -14,11 +14,12 @@
     flex-direction: row;
     text-align: center;
     background-color: #F1F1F0;
-    border-bottom: 1px solid black;
 }
 
 .logo{
-    width: 10%;
+    margin-left: 5%;
+    width: 30%;
+    height: 12vh;
 }
 
 .logo img{
@@ -31,32 +32,11 @@
 }
 
 .link{
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     font-family: 'Lucida Sans Regular', Verdana, sans-serif;
     color: #111111;
     font-weight: 500;
-    transition: ease-in-out;
-    position: relative;
-}
-
-.link::before{
-    content: '';
-    position: absolute;
-    width: 102%;
-    height: 4px;
-    border-radius: 4px;
-    background-color: #18272F;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-}
-
-.link:hover::before{
-    transform-origin: left;
-    transform: scaleX(1);
 }
 
 .links{
@@ -65,15 +45,5 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-left: 30rem;
 }
-
-.icons{
-    padding-right: 2%;
-}
-
-.icons ul{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    list-style: none;
-}    
