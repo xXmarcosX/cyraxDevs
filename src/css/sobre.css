@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +9,64 @@
 .background{
     width: 70%;
     background-color: rgb(0, 74, 173);
-    height: 100vh;
+    height: 150vh;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.background__container{
+    width: 30%;
+    height: 60vh;
+    margin-left: 10%;
+}
+
+.background__container__img{
+    width: 30%;
+}
+
+.background__container__img img{
+    width: 100%;
+}
+
+.background__container__content{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.background__container__content h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.background__container__content__line{
+    border: 2px solid white;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.background__container__descricao{
+    margin-top: 10%;
+}
+
+.background__container__descricao p{
+    font-size: 20px;
+}
+
+.background__container__descricao__p2{
+    width: 60%;
+    margin-top: 3%;
+}
+
+.background__img{
+    position: absolute;
+    width: 25%;
+    height: 95vh;
+    margin-left: 60%;
 }
