@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../assets/LogoPng.svg";
-import Hamburguer from '../assets/hamburguer.svg'
-import Pessoa from '../assets/pessoinha.svg'
+import Hamburguer from '../assets/hamburguer.svg';
+import Pessoa from '../assets/pessoinha.svg';
 import "../css/nav.css";
 
 function Nav() {
@@ -22,8 +22,8 @@ function Nav() {
             <Link to="/sobre" className="link">
               Sobre
             </Link>
-            <Link to="/paginas" className="link">
-              Paginas
+            <Link to="/projetos" className="link">
+              Projetos
             </Link>
             </nav>
           </div>
