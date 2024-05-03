@@ -1,3 +1,5 @@
+import '../css/sobre.css'
+
 function Sobre(){
     return (
         <>
