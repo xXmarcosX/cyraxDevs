@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain{
+    width: 40%;
+}
+
+.contain__img{
+    width: 100%;
+}
+
+.contain__img img{
+    width: 100%;
+}
+
+.contain__content{
+    width: 100%;
+}
+
